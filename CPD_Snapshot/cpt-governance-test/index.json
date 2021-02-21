@@ -1,0 +1,25 @@
+{
+  "name": "CPT Governance Test",
+  "network": "1",
+  "symbol": "CPT",
+  "skin": "cpt-governance-test",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x0B314d8115aAcb2053754bA850531D41d8B6ae37",
+        "symbol": "CPT",
+        "decimals": 18
+      }
+    }
+  ],
+  "members": [
+	"0x41b3489940dea9dd1ef90f0d7aec7c8d3b512062",
+	"0x136Bd40F183bee74c45F04D5760f1D250554E6E9"
+  ],
+  "filters": {
+    "defaultTab": "all",
+    "minScore": 1,
+    "onlyMembers": true
+  }
+}
